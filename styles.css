@@ -10,23 +10,26 @@ body{
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 700px;
     overflow: hidden;
 }
 #display{
     width: 100%;
-    padding: 100px;
-    font-size: 5rem;
-    text-align: left;
+    padding: 30px;
+    font-size: 3rem;
+    text-align: right;
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: white;
 }
 #keys{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     padding: 25px;
+}
+#Log{
+    font-size: xx-large;
 }
 button{
     width: 100px;
@@ -46,11 +49,11 @@ button:active{
     background-color: hsl(0, 0%, 50%);
 }
 .btn{
-    background-color:orange;
+    background-color:green;
 }
 .btn:hover{
-    background-color:hsl(39, 100%, 60%);
+    background-color:hsl(120, 100%, 35%);
 }
 .btn:active{
-    background-color:hsl(39, 100%, 70%);
+    background-color:hsl(120, 100%, 45%);
 }

@@ -16,3 +16,32 @@ function calculate(){
         display.value = "Error";
     }
 }
+
+function sqaureRoot(){
+    display.value = Math.sqrt(display.value);
+}
+
+function power(){
+    display.value = Math.pow(display.value, 2)
+}
+
+function Pi(){
+    display.value = Math.PI*display.value;
+}
+
+function devision(){
+    try{
+        display.value = eval(1/(display.value));
+    }
+    catch(error){
+        display.value = "Error";
+}
+}
+
+function Backspace(){
+    display.value = display.value.substr(0, display.value.length - 1);
+}
+
+function Log(){
+    display.value = Math.log10(display.value)
+}
