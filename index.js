@@ -25,8 +25,12 @@ function power(){
     display.value = Math.pow(display.value, 2)
 }
 
-function Pi(){
-    display.value = Math.PI*display.value;
+function Pi() {
+    if (display.value === "") {
+        display.value = Math.PI.toString();
+    } else {
+        display.value = parseFloat(display.value) * Math.PI;
+    }
 }
 
 function devision(){
